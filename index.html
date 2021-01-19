@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn to code</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="project1.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        background-image: url('img/coder.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 16px;
+        left: 32px;
+        /* border: solid rgb(9, 255, 0); */
+        line-height: 15px;
+    }
+
+    .left img {
+        width: 80px;
+        height: 23px;
+        padding-left: 6px;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: auto;
+        /* margin-right: 222px; */
+        top: 16px;
+        /* border: 2px solid rgb(98, 0, 255); */
+    }
+
+    .right {
+        position: absolute;
+        top: 16px;
+        right: 32px;
+        display: inline-block;
+        /* border: solid red; */
+    }
+
+    .navbar li {
+        display: inline-block;
+        /* margin: 12px; */
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 34px 23px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(28, 25, 180);
+
+    }
+
+    .left p {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .right button {
+        background-color: black;
+        color: white;
+        border: solid white;
+        border-radius: 10px;
+        width: 123px;
+        height: 25px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+
+    .right button:hover,
+    .btn:hover {
+        /* color: tomato; */
+        background-color: rgb(41, 21, 214);
+    }
+
+    .container {
+        border: 2px solid white;
+        display: inline-block;
+        position: absolute;
+        right: 70px;
+        padding-top: 15px;
+        padding-left: 34px;
+        padding-bottom: 35px;
+        margin-right: -45px;
+        margin-top: 42px;
+        top: 170px;
+        width: 25%;
+        border-radius: 30px;
+
+    }
+
+    .formclass input {
+        /* line-height: 1px; */
+        height: 20px;
+        text-align: center;
+        border: 2px solid black;
+        font-size: 18px;
+        /* padding: 2px; */
+        background-color: white;
+        border-radius: 50px;
+        width: 60%;
+        display: block;
+        margin: 1px 50px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+
+    .container h2 {
+        margin-top: 12px;
+        margin-block-start: 1px;
+        margin-block-end: 1px;
+
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        border: solid white;
+        border-radius: 10px;
+        width: 123px;
+        height: 25px;
+        font-family: 'Baloo Bhai 2', cursive;
+        line-height: 2px;
+        margin-left: 90px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img
+                src="https://media-exp1.licdn.com/dms/image/C4E0BAQFxgsk71iewWQ/company-logo_200_200/0/1553110676983?e=2159024400&v=beta&t=umHHkGuScW18YZugwibkodw3ittkIj24Qd2bsDc9yC0">
+            <p class="logo">Learn to code</p>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button>Locate us</button>
+        </div>
+    </header>
+    <div class="container">
+        <!-- <h3>Be a job ready in 3 months</h3> -->
+        <h2>Learn to code in just 3 months</h2>
+        <form action="project.php">
+            <div class="formclass">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formclass">
+                <input type="text" name="" placeholder="Enter your email">
+            </div>
+            <div class="formclass">
+                <input type="text" name="" placeholder="Enter you semester">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
